@@ -1,0 +1,78 @@
+div[class^="col"] {
+	
+    height: 10vh;
+    width: 10vh;
+}
+body{
+    background: #403752;
+}
+.elembg{
+    background-color: #41013196;
+    border: 2px #1F0318 solid;
+}
+
+.font0{
+    font-size: 0;
+    transition: 0.3s;
+}
+.font0:hover {
+    transform: scale(1.1);
+    
+}
+
+.font1{
+    font-size: 2rem;
+    transition: 0.3s;
+
+}
+.font1::after{
+    transform: perspective(1.1);
+}
+.aaa{
+    max-width: 200px;
+}
+p{
+    color: whitesmoke;
+}
+
+.btn{
+    background-color: #41013196;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color:#41011a5b;
+    color: whitesmoke;
+    border: 1px solid #1F0318 ;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4b001d;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4b001d;
+    cursor: pointer;
+  }
+  
